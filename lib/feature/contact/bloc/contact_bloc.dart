@@ -11,7 +11,7 @@ import 'package:flutter_week6_bloc/feature/contact/model/contact_model.dart';
 class ContactBloc extends Bloc<ContactEvent,ContactState>{
   List<ContactModel> contacctData = [
     ContactModel(name: 'joni',nomorTelepon: '0341'),
-    ContactModel(name: 'jono', nomorTelepon: '0431')
+    ContactModel(name: 'jono', nomorTelepon: '03341')
   ];
   ContactBloc():super(ContactInitial()){
     on<AddContact>(_onAddedContact);
